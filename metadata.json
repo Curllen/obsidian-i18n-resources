@@ -11,5 +11,57 @@
         "hash": "6d4607de6d4607de6d4607de6d4607de",
         "created_at": "2026-06-23T02:46:57.870Z",
         "updated_at": "2026-06-23T02:46:57.870Z"
+    },
+    {
+        "id": "7KY5UQh7TPtH8n3JaXe08-3y_6OEFkzP",
+        "plugin": "dataview",
+        "type": "plugin",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "supported_versions": "0.5.68",
+        "title": "Dataview",
+        "description": "Dataview Localization & Tweaks",
+        "hash": "5b57e8e25b57e8e25b57e8e25b57e8e2",
+        "created_at": "2026-06-24T02:36:17.078Z",
+        "updated_at": "2026-06-24T02:36:17.078Z"
+    },
+    {
+        "id": "pXUtJ580gpf0gdciNUME-mwn4fEsUogm",
+        "plugin": "omnisearch",
+        "type": "plugin",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "supported_versions": "1.29.3",
+        "title": "Omnisearch",
+        "description": "Omnisearch Localization & Tweaks",
+        "hash": "799117c4799117c4799117c4799117c4",
+        "created_at": "2026-06-24T02:36:17.079Z",
+        "updated_at": "2026-06-24T02:36:17.079Z"
+    },
+    {
+        "id": "CXgRmgaK7CsDdCa7byISwLCwppDp_c-b",
+        "plugin": "templater-obsidian",
+        "type": "plugin",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "supported_versions": "2.18.1",
+        "title": "Templater",
+        "description": "Templater Localization & Tweaks",
+        "hash": "5f10c48d5f10c48d5f10c48d5f10c48d",
+        "created_at": "2026-06-24T02:36:17.081Z",
+        "updated_at": "2026-06-24T02:36:17.081Z"
+    },
+    {
+        "id": "mpJt4p0s3JsrI6D6eQja3O2Hdt23IqQi",
+        "plugin": "pdf-plus",
+        "type": "plugin",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "supported_versions": "0.40.31",
+        "title": "PDF++",
+        "description": "PDF++ Localization & Tweaks",
+        "hash": "18ea159418ea159418ea159418ea1594",
+        "created_at": "2026-06-24T02:36:17.081Z",
+        "updated_at": "2026-06-24T02:36:17.081Z"
     }
 ]
