@@ -63,5 +63,18 @@
         "hash": "18ea159418ea159418ea159418ea1594",
         "created_at": "2026-06-24T02:36:17.081Z",
         "updated_at": "2026-06-24T02:36:17.081Z"
+    },
+    {
+        "id": "OkIRzLoxpNo48Fv41bdG14PssYYwcoEy",
+        "plugin": "voice",
+        "type": "plugin",
+        "language": "zh-cn",
+        "version": "1.0.0",
+        "supported_versions": "1.15.4",
+        "title": "Voice",
+        "description": "Voice Localization & Tweaks",
+        "hash": "5529bbb45529bbb45529bbb45529bbb4",
+        "created_at": "2026-06-25T06:57:50.741Z",
+        "updated_at": "2026-06-25T06:57:50.741Z"
     }
 ]
