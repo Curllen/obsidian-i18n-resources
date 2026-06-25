@@ -1,0 +1,2026 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "voice",
+        "version": "1.0.0",
+        "title": "Voice",
+        "description": "Voice Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.15.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "− slower",
+                    "target": "− 较慢"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "faster +",
+                    "target": "更快 +"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Testing credentials...",
+                    "target": "正在测试凭据..."
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Test Credentials",
+                    "target": "测试凭据"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Move left to decrease speed (slower playback)",
+                    "target": "向左移动以降低速度（较慢播放）"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "title",
+                    "source": "Move right to increase speed (faster playback)",
+                    "target": "向右移动以提高速度（较快播放）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "openai",
+                    "target": "openai"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "OpenAI",
+                    "target": "OpenAI"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "azure",
+                    "target": "azure"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Azure Speech",
+                    "target": "Azure Speech"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "google",
+                    "target": "google"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Google Cloud",
+                    "target": "Google Cloud"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "elevenlabs",
+                    "target": "elevenlabs"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "ElevenLabs",
+                    "target": "ElevenLabs"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "polly",
+                    "target": "polly"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "AWS Polly",
+                    "target": "AWS Polly"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "South America (São Paulo)",
+                    "target": "South America (São Paulo)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Middle East (UAE)",
+                    "target": "Middle East (UAE)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Middle East (Bahrain)",
+                    "target": "Middle East (Bahrain)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Europe (Zurich)",
+                    "target": "Europe (Zurich)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Europe (Stockholm)",
+                    "target": "Europe (Stockholm)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Europe (Spain)",
+                    "target": "Europe (Spain)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Europe (Paris)",
+                    "target": "Europe (Paris)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Europe (Milan)",
+                    "target": "Europe (Milan)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Europe (London)",
+                    "target": "Europe (London)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Europe (Ireland)",
+                    "target": "Europe (Ireland)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Europe (Frankfurt)",
+                    "target": "Europe (Frankfurt)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Canada (Central)",
+                    "target": "Canada (Central)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Asia Pacific (Tokyo)",
+                    "target": "Asia Pacific (Tokyo)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Asia Pacific (Sydney)",
+                    "target": "Asia Pacific (Sydney)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Asia Pacific (Singapore)",
+                    "target": "Asia Pacific (Singapore)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Asia Pacific (Seoul)",
+                    "target": "Asia Pacific (Seoul)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Asia Pacific (Osaka)",
+                    "target": "Asia Pacific (Osaka)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Asia Pacific (Mumbai)",
+                    "target": "Asia Pacific (Mumbai)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Asia Pacific (Melbourne)",
+                    "target": "Asia Pacific (Melbourne)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Asia Pacific (Jakarta)",
+                    "target": "Asia Pacific (Jakarta)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Asia Pacific (Hyderabad)",
+                    "target": "Asia Pacific (Hyderabad)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Asia Pacific (Hong Kong)",
+                    "target": "Asia Pacific (Hong Kong)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Africa (Cape Town)",
+                    "target": "Africa (Cape Town)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "US West (Oregon)",
+                    "target": "US West (Oregon)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "US West (N. California)",
+                    "target": "US West (N. California)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "US East (N. Virginia)",
+                    "target": "US East (N. Virginia)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "US East (Ohio)",
+                    "target": "US East (Ohio)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "input",
+                    "target": "input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "select",
+                    "target": "select"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "option",
+                    "target": "option"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "img",
+                    "target": "img"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Chunk validation errors:",
+                    "target": "分块验证错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in playSSMLAudio:",
+                    "target": "playSSMLAudio 中的错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in ElevenLabs speak:",
+                    "target": "ElevenLabs 语音合成错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "ElevenLabs credential validation error:",
+                    "target": "ElevenLabs 凭据验证错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in Google TTS speak:",
+                    "target": "Google TTS 语音合成错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Google TTS credential validation error:",
+                    "target": "Google TTS 凭据验证错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in Azure Speech speak:",
+                    "target": "Azure 语音服务错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Azure Speech credential validation error:",
+                    "target": "Azure 语音服务凭据验证错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in OpenAI speak:",
+                    "target": "OpenAI 语音合成错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "OpenAI credential validation error:",
+                    "target": "OpenAI 凭据验证错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Credential validation error:",
+                    "target": "凭据验证错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error reading active file:",
+                    "target": "读取活动文件时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error saving audio file:",
+                    "target": "保存音频文件时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error inserting audio embed:",
+                    "target": "插入音频嵌入时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in downloadAndEmbed:",
+                    "target": "downloadAndEmbed 中出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error downloading audio:",
+                    "target": "下载音频时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Ribbon icon element is not initialized.",
+                    "target": "功能区图标元素未初始化。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in text-to-speech processing:",
+                    "target": "文本转语音处理中出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "SSML validation errors:",
+                    "target": "SSML 验证错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Open Voice player",
+                    "target": "打开语音播放器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Close",
+                    "target": "关闭"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose which text-to-speech engine to use. AWS Polly, ElevenLabs, and Google Cloud offer the same plugin features; each uses its own credentials and voices.",
+                    "target": "选择要使用的文本转语音引擎。AWS Polly、ElevenLabs 和 Google Cloud 提供相同的插件功能；各自使用其凭据和语音。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose a voice tone, gender, and language for a personalized audio experience.",
+                    "target": "选择语音音色、性别和语言，以获得个性化的音频体验。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set a preferred reading tempo for pleasant and comfortable audio playback.",
+                    "target": "设置偏好的朗读速度，以获得愉悦舒适的音频播放体验。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When enabled, uppercase words like NASA or API are spelled out letter by letter. Disable this if you want uppercase words to be pronounced normally. (Applies to AWS Polly.)",
+                    "target": "启用后，像 NASA 或 API 这样的大写单词将逐字母拼读。若希望大写单词正常发音，请禁用此选项。（适用于 AWS Polly。）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When enabled, fenced code blocks (such as Mermaid, YAML, or other code) are read aloud. Disable this to skip code blocks and announce them as a short placeholder instead.",
+                    "target": "启用后，围栏代码块（如 Mermaid、YAML 或其他代码）将被朗读。禁用此选项可跳过代码块，并以简短占位符提示。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When enabled, website URLs (such as https://example.com or www.example.com) are removed and not read aloud. Disabled by default.",
+                    "target": "启用后，网站 URL（如 https://example.com 或 www.example.com）将被移除且不朗读。默认禁用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When enabled, the generated MP3 is automatically saved next to the note after each successful playback—no need to press the download button. Disabled by default.",
+                    "target": "启用后，每次成功播放后生成的 MP3 将自动保存到笔记旁边，无需点击下载按钮。默认禁用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When enabled, saving an MP3 also inserts an audio embed in the note. This applies to both the download button and auto-save. Turn it off to download the MP3 without embedding it. Enabled by default.",
+                    "target": "启用后，保存 MP3 时还会在笔记中插入音频嵌入。此设置同时适用于下载按钮和自动保存。关闭此选项可下载 MP3 但不嵌入。默认启用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When enabled, the player's folder picker automatically switches to the folder of the note you are viewing. Disable it to keep the folder you selected in the player when you switch notes. Enabled by default.",
+                    "target": "启用后，播放器的文件夹选择器会自动切换到您正在查看的笔记所在文件夹。禁用后，切换笔记时将保留您在播放器中选择的文件夹。默认启用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The OpenAI text-to-speech model. GPT-4o mini TTS is recommended; TTS-1 favours latency and TTS-1 HD favours quality.",
+                    "target": "OpenAI 文本转语音模型。推荐使用 GPT-4o mini TTS；TTS-1 侧重低延迟，TTS-1 HD 侧重高质量。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The Azure region of your Speech resource (must match the key).",
+                    "target": "The Azure region of your Speech resource (must match the key)."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The AWS Region for the Polly service.",
+                    "target": "The AWS Region for the Polly service."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The ElevenLabs model used for synthesis. Multilingual v2 offers the best quality; Flash v2.5 is the fastest.",
+                    "target": "用于合成的 ElevenLabs 模型。Multilingual v2 提供最佳质量；Flash v2.5 速度最快。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Speech Provider",
+                    "target": "语音提供商"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Voice",
+                    "target": "语音"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Tempo",
+                    "target": "语速"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Rewind interval",
+                    "target": "快退间隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Fast-forward interval",
+                    "target": "快进间隔"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Spell Out Acronyms",
+                    "target": "拼读缩写词"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Read Code Blocks",
+                    "target": "朗读代码块"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Skip Website URLs",
+                    "target": "跳过网站 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto-Save Audio to Note",
+                    "target": "自动保存音频至笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Embed Audio in Note",
+                    "target": "在笔记中嵌入音频"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Folder Picker Follows Active Note",
+                    "target": "文件夹选择器跟随当前笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "OpenAI",
+                    "target": "OpenAI"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Model",
+                    "target": "模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Azure Speech",
+                    "target": "Azure 语音"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Region",
+                    "target": "Region"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Google Cloud",
+                    "target": "Google Cloud"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "AWS",
+                    "target": "AWS"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "AWS Region",
+                    "target": "AWS Region"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "ElevenLabs",
+                    "target": "ElevenLabs"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Show",
+                    "target": "显示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Missing timestamp format, parsing value with Date constructor:",
+                    "target": "缺少时间戳格式，使用 Date 构造函数解析值："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Missing timestamp format, using epoch seconds",
+                    "target": "缺少时间戳格式，使用纪元秒数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "An error was encountered in a non-retryable streaming request.",
+                    "target": "在不可重试的流式请求中遇到错误。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "userAgentAppId must be a string or undefined.",
+                    "target": "userAgentAppId 必须为字符串或 undefined。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "The provided userAgentAppId exceeds the maximum length of 50 characters.",
+                    "target": "提供的 userAgentAppId 超过了 50 个字符的最大长度限制。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "@smithy/config-resolver WARN - Please use the caller region instead of \"*\". See \"sigv4a\" in https://github.com/aws/aws-sdk-js-v3/blob/main/supplemental-docs/CLIENTS.md.",
+                    "target": "@smithy/config-resolver WARN - 请使用调用方区域而非 \"*\"。请参阅 https://github.com/aws/aws-sdk-js-v3/blob/main/supplemental-docs/CLIENTS.md 中的 \"sigv4a\"。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "SSML warnings:",
+                    "target": "SSML 警告："
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No active file found",
+                    "target": "未找到活动文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "That file name contains characters that aren't allowed.",
+                    "target": "该文件名包含不允许的字符。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No audio available for this file. Please generate audio first.",
+                    "target": "此文件无可用音频。请先生成音频。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Processing text...",
+                    "target": "正在处理文本..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "voice-slider-indicator left",
+                    "target": "voice-slider-indicator left"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "voice-slider-indicator right",
+                    "target": "voice-slider-indicator right"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "voice-player-btn voice-player-track",
+                    "target": "voice-player-btn voice-player-track"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "voice-player-btn voice-player-skip",
+                    "target": "voice-player-btn voice-player-skip"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "voice-player-btn voice-player-play",
+                    "target": "voice-player-btn voice-player-play"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "voice-player-select dropdown",
+                    "target": "voice-player-select dropdown"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "voice-player-select voice-player-folder-select dropdown",
+                    "target": "voice-player-select voice-player-folder-select dropdown"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Africa (Cape Town)",
+                    "target": "非洲（开普敦）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Asia Pacific (Hong Kong)",
+                    "target": "Asia Pacific (Hong Kong)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Asia Pacific (Taipei)",
+                    "target": "Asia Pacific (Taipei)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Asia Pacific (Tokyo)",
+                    "target": "Asia Pacific (Tokyo)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Asia Pacific (Seoul)",
+                    "target": "Asia Pacific (Seoul)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Asia Pacific (Osaka)",
+                    "target": "Asia Pacific (Osaka)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Asia Pacific (Mumbai)",
+                    "target": "Asia Pacific (Mumbai)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Asia Pacific (Hyderabad)",
+                    "target": "Asia Pacific (Hyderabad)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Asia Pacific (Singapore)",
+                    "target": "Asia Pacific (Singapore)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Asia Pacific (Sydney)",
+                    "target": "Asia Pacific (Sydney)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Asia Pacific (Jakarta)",
+                    "target": "Asia Pacific (Jakarta)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Asia Pacific (Melbourne)",
+                    "target": "Asia Pacific (Melbourne)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Asia Pacific (Malaysia)",
+                    "target": "Asia Pacific (Malaysia)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Asia Pacific (New Zealand)",
+                    "target": "Asia Pacific (New Zealand)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Asia Pacific (Thailand)",
+                    "target": "Asia Pacific (Thailand)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "aws global region",
+                    "target": "aws global region"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Canada (Central)",
+                    "target": "加拿大 (中部)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Canada West (Calgary)",
+                    "target": "加拿大西部 (卡尔加里)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Europe (Frankfurt)",
+                    "target": "欧洲 (法兰克福)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Europe (Zurich)",
+                    "target": "欧洲 (苏黎世)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Europe (Stockholm)",
+                    "target": "欧洲 (斯德哥尔摩)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Europe (Milan)",
+                    "target": "欧洲 (米兰)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Europe (Spain)",
+                    "target": "欧洲 (西班牙)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Europe (Ireland)",
+                    "target": "欧洲 (爱尔兰)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Europe (London)",
+                    "target": "欧洲 (伦敦)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Europe (Paris)",
+                    "target": "欧洲 (巴黎)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Israel (Tel Aviv)",
+                    "target": "以色列 (特拉维夫)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Middle East (UAE)",
+                    "target": "中东 (阿联酋)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Middle East (Bahrain)",
+                    "target": "中东（巴林）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Mexico (Central)",
+                    "target": "墨西哥（中部）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "South America (Sao Paulo)",
+                    "target": "南美洲（圣保罗）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "US East (N. Virginia)",
+                    "target": "美国东部（弗吉尼亚北部）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "US East (Ohio)",
+                    "target": "美国东部（俄亥俄）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "US West (N. California)",
+                    "target": "美国西部（加利福尼亚北部）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "US West (Oregon)",
+                    "target": "美国西部（俄勒冈）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "aws-cn global region",
+                    "target": "aws-cn global region"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "China (Beijing)",
+                    "target": "中国（北京）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "China (Ningxia)",
+                    "target": "中国（宁夏）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "AWS European Sovereign Cloud (Germany)",
+                    "target": "AWS欧洲主权云（德国）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "aws-iso global region",
+                    "target": "aws-iso global region"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "US ISO East",
+                    "target": "美国ISO东部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "US ISO WEST",
+                    "target": "美国ISO西部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "aws-iso-b global region",
+                    "target": "aws-iso-b global region"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "US ISOB East (Ohio)",
+                    "target": "美国ISOB东部（俄亥俄）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "US ISOB West",
+                    "target": "美国ISOB西部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "aws-iso-e global region",
+                    "target": "aws-iso-e global region"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "EU ISOE West",
+                    "target": "欧盟ISOE西部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "aws-iso-f global region",
+                    "target": "aws-iso-f global region"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "US ISOF EAST",
+                    "target": "美国 ISOF 东部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "US ISOF SOUTH",
+                    "target": "美国 ISOF 南部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "aws-us-gov global region",
+                    "target": "aws-us-gov global region"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "AWS GovCloud (US-East)",
+                    "target": "AWS GovCloud（美国东部）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "AWS GovCloud (US-West)",
+                    "target": "AWS GovCloud（美国西部）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "AWS SDK for JavaScript Polly Client for Node.js, Browser and React Native",
+                    "target": "适用于 Node.js、浏览器和 React Native 的 AWS SDK for JavaScript Polly 客户端"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Please enter your ElevenLabs API key.",
+                    "target": "请输入您的 ElevenLabs API 密钥。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Invalid or expired ElevenLabs API key.",
+                    "target": "ElevenLabs API 密钥无效或已过期。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Network error during validation. Please try again.",
+                    "target": "验证过程中发生网络错误。请重试。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Please enter your Google Cloud API key.",
+                    "target": "请输入您的 Google Cloud API 密钥。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Invalid API key, or the Cloud Text-to-Speech API is not enabled for this key/project.",
+                    "target": "无效的 API 密钥，或此密钥/项目未启用 Cloud Text-to-Speech API。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Please enter your Azure Speech key and region.",
+                    "target": "请输入您的 Azure 语音密钥和区域。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Invalid Azure Speech key, or it doesn't match the region.",
+                    "target": "无效的 Azure 语音密钥，或与区域不匹配。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Please enter your OpenAI API key.",
+                    "target": "请输入您的 OpenAI API 密钥。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Invalid or expired OpenAI API key.",
+                    "target": "无效或已过期的 OpenAI API 密钥。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "aws",
+                    "target": "aws"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "polly",
+                    "target": "polly"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "endpoint",
+                    "target": "端点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "region",
+                    "target": "region"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "AWS SDK for JavaScript Team",
+                    "target": "AWS SDK for JavaScript 团队"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "LexiconNotFoundException",
+                    "target": "词库未找到异常"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ServiceFailureException",
+                    "target": "服务故障异常"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "InvalidNextTokenException",
+                    "target": "NextToken无效异常"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "EngineNotSupportedException",
+                    "target": "引擎不支持异常"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "InvalidTaskIdException",
+                    "target": "无效任务ID异常"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "SynthesisTaskNotFoundException",
+                    "target": "合成任务未找到异常"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "InvalidLexiconException",
+                    "target": "无效词库异常"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "InvalidSampleRateException",
+                    "target": "无效采样率异常"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "InvalidSnsTopicArnException",
+                    "target": "无效SNS主题ARN异常"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "InvalidSsmlException",
+                    "target": "无效SSML异常"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "LanguageNotSupportedException",
+                    "target": "不支持的语言异常"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "LexiconSizeExceededException",
+                    "target": "词典大小超出异常"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "MarksNotSupportedForFormatException",
+                    "target": "格式不支持标记异常"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "MaxLexemeLengthExceededException",
+                    "target": "词素最大长度超出异常"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "MaxLexiconsNumberExceededException",
+                    "target": "词典最大数量超出异常"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "UnsupportedPlsAlphabetException",
+                    "target": "不支持的PLS字母表异常"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "UnsupportedPlsLanguageException",
+                    "target": "不支持的PLS语言异常"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ServiceQuotaExceededException",
+                    "target": "服务配额超出异常"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ThrottlingException",
+                    "target": "限流异常"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ValidationException",
+                    "target": "验证异常"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "SsmlMarksNotSupportedForTextTypeException",
+                    "target": "SsmlMarksNotSupportedForTextTypeException"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "TextLengthExceededException",
+                    "target": "TextLengthExceededException"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Start reading the current document.",
+                    "target": "开始朗读当前文档。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pause reading the current document.",
+                    "target": "暂停朗读当前文档。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Stop reading the current document.",
+                    "target": "停止朗读当前文档。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Rewind by few seconds reading the current document.",
+                    "target": "向后倒回数秒朗读当前文档。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Fast-Forward by few seconds reading the current document.",
+                    "target": "向前快进数秒朗读当前文档。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Increase the reading speed by 0.1x.",
+                    "target": "将朗读速度提升0.1倍。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Decrease the reading speed by 0.1x.",
+                    "target": "将朗读速度降低0.1倍。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Save the current audio as an MP3 and embed it in the note.",
+                    "target": "将当前音频保存为MP3并嵌入到笔记中。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Switch to the next speaker.",
+                    "target": "切换至下一个语音。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Play or Stop reading the current document.",
+                    "target": "播放或停止朗读当前文档。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reading tempo increased by 15% for a faster pace of the current document.",
+                    "target": "阅读速度提升 15%，以加快当前文档的朗读节奏。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reading tempo increased by 25% for a faster pace of the current document.",
+                    "target": "阅读速度提升 25%，以加快当前文档的朗读节奏。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reading tempo reduced by 15% for a slower pace of the current document.",
+                    "target": "阅读速度降低 15%，以减慢当前文档的朗读节奏。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reading tempo reduced by 25% for a slower pace of the current document.",
+                    "target": "阅读速度降低 25%，以减慢当前文档的朗读节奏。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "attention",
+                    "target": "注意"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "autolink",
+                    "target": "自动链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "definition",
+                    "target": "定义"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "list",
+                    "target": "列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "strikethrough",
+                    "target": "删除线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "table",
+                    "target": "表格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open the player.",
+                    "target": "打开播放器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show what's new.",
+                    "target": "查看新增内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Credential Validation",
+                    "target": "凭证验证"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Test Credentials",
+                    "target": "测试凭证"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "View setup guide",
+                    "target": "查看设置指南"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Read this note",
+                    "target": "阅读此注释"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No audio folders",
+                    "target": "无音频文件夹"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(`Failed to construct URL with ${expression}`, error);\n          throw error;\n        }\n      }\n      throw new EndpointError(`Endpoint URL must be a string, got ${typeof expression}`)",
+                    "target": "error(`Failed to construct URL with ${expression}`, error);\n          throw error;\n        }\n      }\n      throw new EndpointError(`Endpoint URL must be a string, got ${typeof expression}`)"
+                },
+                {
+                    "source": "error(\"Chunk validation errors:\", validation.errors);\n          throw new Error(\n            `SSML chunking failed: ${validation.errors.join(\", \")",
+                    "target": "error(\"Chunk validation errors:\", validation.errors);\n          throw new Error(\n            `SSML chunking failed: ${validation.errors.join(\", \")"
+                },
+                {
+                    "source": "setName(\"Speech Provider\")",
+                    "target": "setName(\"Speech Provider\")"
+                },
+                {
+                    "source": "setDesc(\n      \"Choose which text-to-speech engine to use. AWS Polly, ElevenLabs, and Google Cloud offer the same plugin features; each uses its own credentials and voices.\"\n    )",
+                    "target": "setDesc(\n      \"Choose which text-to-speech engine to use. AWS Polly, ElevenLabs, and Google Cloud offer the same plugin features; each uses its own credentials and voices.\"\n    )"
+                },
+                {
+                    "source": "setDesc(\n      \"Choose a voice tone, gender, and language for a personalized audio experience.\"\n    )",
+                    "target": "setDesc(\n      \"Choose a voice tone, gender, and language for a personalized audio experience.\"\n    )"
+                },
+                {
+                    "source": "setDesc(\n      \"Set a preferred reading tempo for pleasant and comfortable audio playback.\"\n    )",
+                    "target": "setDesc(\n      \"Set a preferred reading tempo for pleasant and comfortable audio playback.\"\n    )"
+                },
+                {
+                    "source": "setName(\"Rewind interval\")",
+                    "target": "setName(\"Rewind interval\")"
+                },
+                {
+                    "source": "setName(\"Fast-forward interval\")",
+                    "target": "setName(\"Fast-forward interval\")"
+                },
+                {
+                    "source": "setName(\"Spell Out Acronyms\")",
+                    "target": "setName(\"Spell Out Acronyms\")"
+                },
+                {
+                    "source": "setDesc(\n      \"When enabled, uppercase words like NASA or API are spelled out letter by letter. Disable this if you want uppercase words to be pronounced normally. (Applies to AWS Polly.)\"\n    )",
+                    "target": "setDesc(\n      \"When enabled, uppercase words like NASA or API are spelled out letter by letter. Disable this if you want uppercase words to be pronounced normally. (Applies to AWS Polly.)\"\n    )"
+                },
+                {
+                    "source": "setName(\"Read Code Blocks\")",
+                    "target": "setName(\"Read Code Blocks\")"
+                },
+                {
+                    "source": "setDesc(\n      \"When enabled, fenced code blocks (such as Mermaid, YAML, or other code) are read aloud. Disable this to skip code blocks and announce them as a short placeholder instead.\"\n    )",
+                    "target": "setDesc(\n      \"When enabled, fenced code blocks (such as Mermaid, YAML, or other code) are read aloud. Disable this to skip code blocks and announce them as a short placeholder instead.\"\n    )"
+                },
+                {
+                    "source": "setName(\"Skip Website URLs\")",
+                    "target": "setName(\"Skip Website URLs\")"
+                },
+                {
+                    "source": "setDesc(\n      \"When enabled, website URLs (such as https://example.com or www.example.com) are removed and not read aloud. Disabled by default.\"\n    )",
+                    "target": "setDesc(\n      \"When enabled, website URLs (such as https://example.com or www.example.com) are removed and not read aloud. Disabled by default.\"\n    )"
+                },
+                {
+                    "source": "setName(\"Auto-Save Audio to Note\")",
+                    "target": "setName(\"Auto-Save Audio to Note\")"
+                },
+                {
+                    "source": "setName(\"Embed Audio in Note\")",
+                    "target": "setName(\"Embed Audio in Note\")"
+                },
+                {
+                    "source": "setDesc(\n      \"When enabled, saving an MP3 also inserts an audio embed in the note. This applies to both the download button and auto-save. Turn it off to download the MP3 without embedding it. Enabled by default.\"\n    )",
+                    "target": "setDesc(\n      \"When enabled, saving an MP3 also inserts an audio embed in the note. This applies to both the download button and auto-save. Turn it off to download the MP3 without embedding it. Enabled by default.\"\n    )"
+                },
+                {
+                    "source": "setName(\"Folder Picker Follows Active Note\")",
+                    "target": "setName(\"Folder Picker Follows Active Note\")"
+                },
+                {
+                    "source": "setDesc(\n      \"When enabled, the player's folder picker automatically switches to the folder of the note you are viewing. Disable it to keep the folder you selected in the player when you switch notes. Enabled by default.\"\n    )",
+                    "target": "setDesc(\n      \"When enabled, the player's folder picker automatically switches to the folder of the note you are viewing. Disable it to keep the folder you selected in the player when you switch notes. Enabled by default.\"\n    )"
+                },
+                {
+                    "source": "setDesc(\n      \"The OpenAI text-to-speech model. GPT-4o mini TTS is recommended; TTS-1 favours latency and TTS-1 HD favours quality.\"\n    )",
+                    "target": "setDesc(\n      \"The OpenAI text-to-speech model. GPT-4o mini TTS is recommended; TTS-1 favours latency and TTS-1 HD favours quality.\"\n    )"
+                },
+                {
+                    "source": "setName(\"Azure Speech\")",
+                    "target": "setName(\"Azure Speech\")"
+                },
+                {
+                    "source": "setDesc(\"The Azure region of your Speech resource (must match the key).\")",
+                    "target": "setDesc(\"The Azure region of your Speech resource (must match the key).\")"
+                },
+                {
+                    "source": "setName(\"Google Cloud\")",
+                    "target": "setName(\"Google Cloud\")"
+                },
+                {
+                    "source": "setName(\"AWS Region\")",
+                    "target": "setName(\"AWS Region\")"
+                },
+                {
+                    "source": "setDesc(\"The AWS Region for the Polly service.\")",
+                    "target": "setDesc(\"The AWS Region for the Polly service.\")"
+                },
+                {
+                    "source": "error(\"Credential validation error:\", error);\n        updateStatus(\n          false,\n          \"Unexpected error during validation. Please check your credentials and try again.\"\n        )",
+                    "target": "error(\"Credential validation error:\", error);\n        updateStatus(\n          false,\n          \"Unexpected error during validation. Please check your credentials and try again.\"\n        )"
+                },
+                {
+                    "source": "Notice(\"No active file found\")",
+                    "target": "Notice(\"No active file found\")"
+                },
+                {
+                    "source": "Notice(`Updated: ${audioFileName}`)",
+                    "target": "Notice(`Updated: ${audioFileName}`)"
+                },
+                {
+                    "source": "Notice(`Created: ${audioFileName}`)",
+                    "target": "Notice(`Created: ${audioFileName}`)"
+                },
+                {
+                    "source": "Notice(`Error inserting audio embed: ${error.message}`)",
+                    "target": "Notice(`Error inserting audio embed: ${error.message}`)"
+                },
+                {
+                    "source": "error(\"Error in downloadAndEmbed:\", error);\n      new import_obsidian7.Notice(`Error downloading audio: ${error.message}`);\n    }\n  }\n};\n\n// src/ui/VoicePlayerView.ts\nvar import_obsidian8 = require(\"obsidian\")",
+                    "target": "error(\"Error in downloadAndEmbed:\", error);\n      new import_obsidian7.Notice(`Error downloading audio: ${error.message}`);\n    }\n  }\n};\n\n// src/ui/VoicePlayerView.ts\nvar import_obsidian8 = require(\"obsidian\")"
+                },
+                {
+                    "source": "setText(\"No audio files in this folder yet.\")",
+                    "target": "setText(\"No audio files in this folder yet.\")"
+                },
+                {
+                    "source": "Notice(\"That file name contains characters that aren't allowed.\")",
+                    "target": "Notice(\"That file name contains characters that aren't allowed.\")"
+                },
+                {
+                    "source": "Notice(\n        `Could not rename: ${error instanceof Error ? error.message : String(error)}`\n      )",
+                    "target": "Notice(\n        `Could not rename: ${error instanceof Error ? error.message : String(error)}`\n      )"
+                },
+                {
+                    "source": "Notice(\n          \"No audio available for this file. Please generate audio first.\"\n        )",
+                    "target": "Notice(\n          \"No audio available for this file. Please generate audio first.\"\n        )"
+                },
+                {
+                    "source": "error(\"Ribbon icon element is not initialized.\")",
+                    "target": "error(\"Ribbon icon element is not initialized.\")"
+                },
+                {
+                    "source": "Notice(`Failed to download audio: ${error.message}`)",
+                    "target": "Notice(`Failed to download audio: ${error.message}`)"
+                },
+                {
+                    "source": "setText(`What's new in Voice ${this.version}`)",
+                    "target": "setText(`What's new in Voice ${this.version}`)"
+                },
+                {
+                    "source": "setButtonText(\"Open Voice player\")",
+                    "target": "setButtonText(\"Open Voice player\")"
+                },
+                {
+                    "source": "Notice(`Voice: ${next.label}`)",
+                    "target": "Notice(`Voice: ${next.label}`)"
+                },
+                {
+                    "source": "name: \"deserializerMiddleware\"",
+                    "target": "name: \"deserializerMiddleware\""
+                },
+                {
+                    "source": "name: \"serializerMiddleware\"",
+                    "target": "name: \"serializerMiddleware\""
+                },
+                {
+                    "source": "name = \"EndpointError\"",
+                    "target": "name = \"EndpointError\""
+                },
+                {
+                    "source": "name : `${pathname}/`",
+                    "target": "name : `${pathname}/`"
+                },
+                {
+                    "source": "name: \"\"",
+                    "target": "name: \"\""
+                },
+                {
+                    "source": "name: \"contentLengthMiddleware\"",
+                    "target": "name: \"contentLengthMiddleware\""
+                },
+                {
+                    "source": "name: \"retryMiddleware\"",
+                    "target": "name: \"retryMiddleware\""
+                },
+                {
+                    "source": "name: \"hostHeaderMiddleware\"",
+                    "target": "name: \"hostHeaderMiddleware\""
+                },
+                {
+                    "source": "name: \"loggerMiddleware\"",
+                    "target": "name: \"loggerMiddleware\""
+                },
+                {
+                    "source": "name: \"httpAuthSchemeMiddleware\"",
+                    "target": "name: \"httpAuthSchemeMiddleware\""
+                },
+                {
+                    "source": "name: \"httpSigningMiddleware\"",
+                    "target": "name: \"httpSigningMiddleware\""
+                },
+                {
+                    "source": "name: \"getUserAgentMiddleware\"",
+                    "target": "name: \"getUserAgentMiddleware\""
+                },
+                {
+                    "source": "name: \"sigv4\"",
+                    "target": "name: \"sigv4\""
+                },
+                {
+                    "source": "name: \"polly\"",
+                    "target": "name: \"polly\""
+                },
+                {
+                    "source": "name: \"useFipsEndpoint\"",
+                    "target": "name: \"useFipsEndpoint\""
+                },
+                {
+                    "source": "name: \"endpoint\"",
+                    "target": "name: \"endpoint\""
+                },
+                {
+                    "source": "name: \"region\"",
+                    "target": "name: \"region\""
+                },
+                {
+                    "source": "name: \"useDualstackEndpoint\"",
+                    "target": "name: \"useDualstackEndpoint\""
+                },
+                {
+                    "source": "name: \"@aws-sdk/client-polly\"",
+                    "target": "name: \"@aws-sdk/client-polly\""
+                },
+                {
+                    "source": "description: \"AWS SDK for JavaScript Polly Client for Node.js, Browser and React Native\"",
+                    "target": "description: \"AWS SDK for JavaScript Polly Client for Node.js, Browser and React Native\""
+                },
+                {
+                    "source": "name: \"AWS SDK for JavaScript Team\"",
+                    "target": "name: \"AWS SDK for JavaScript Team\""
+                },
+                {
+                    "source": "page: \"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-polly\"",
+                    "target": "page: \"https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-polly\""
+                },
+                {
+                    "source": "name: \"HMAC\"",
+                    "target": "name: \"HMAC\""
+                },
+                {
+                    "source": "name = \"TimeoutError\"",
+                    "target": "name = \"TimeoutError\""
+                },
+                {
+                    "source": "name = \"AbortError\"",
+                    "target": "name = \"AbortError\""
+                },
+                {
+                    "source": "name: \"LexiconNotFoundException\"",
+                    "target": "name: \"LexiconNotFoundException\""
+                },
+                {
+                    "source": "name: \"ServiceFailureException\"",
+                    "target": "name: \"ServiceFailureException\""
+                },
+                {
+                    "source": "name: \"InvalidNextTokenException\"",
+                    "target": "name: \"InvalidNextTokenException\""
+                },
+                {
+                    "source": "name: \"EngineNotSupportedException\"",
+                    "target": "name: \"EngineNotSupportedException\""
+                },
+                {
+                    "source": "name: \"InvalidTaskIdException\"",
+                    "target": "name: \"InvalidTaskIdException\""
+                },
+                {
+                    "source": "name: \"SynthesisTaskNotFoundException\"",
+                    "target": "name: \"SynthesisTaskNotFoundException\""
+                },
+                {
+                    "source": "name: \"InvalidLexiconException\"",
+                    "target": "name: \"InvalidLexiconException\""
+                },
+                {
+                    "source": "name: \"InvalidS3BucketException\"",
+                    "target": "name: \"InvalidS3BucketException\""
+                },
+                {
+                    "source": "name: \"InvalidS3KeyException\"",
+                    "target": "name: \"InvalidS3KeyException\""
+                },
+                {
+                    "source": "name: \"InvalidSampleRateException\"",
+                    "target": "name: \"InvalidSampleRateException\""
+                },
+                {
+                    "source": "name: \"InvalidSnsTopicArnException\"",
+                    "target": "name: \"InvalidSnsTopicArnException\""
+                },
+                {
+                    "source": "name: \"InvalidSsmlException\"",
+                    "target": "name: \"InvalidSsmlException\""
+                },
+                {
+                    "source": "name: \"LanguageNotSupportedException\"",
+                    "target": "name: \"LanguageNotSupportedException\""
+                },
+                {
+                    "source": "name: \"LexiconSizeExceededException\"",
+                    "target": "name: \"LexiconSizeExceededException\""
+                },
+                {
+                    "source": "name: \"MarksNotSupportedForFormatException\"",
+                    "target": "name: \"MarksNotSupportedForFormatException\""
+                },
+                {
+                    "source": "name: \"MaxLexemeLengthExceededException\"",
+                    "target": "name: \"MaxLexemeLengthExceededException\""
+                },
+                {
+                    "source": "name: \"MaxLexiconsNumberExceededException\"",
+                    "target": "name: \"MaxLexiconsNumberExceededException\""
+                },
+                {
+                    "source": "name: \"UnsupportedPlsAlphabetException\"",
+                    "target": "name: \"UnsupportedPlsAlphabetException\""
+                },
+                {
+                    "source": "name: \"UnsupportedPlsLanguageException\"",
+                    "target": "name: \"UnsupportedPlsLanguageException\""
+                },
+                {
+                    "source": "name: \"ServiceQuotaExceededException\"",
+                    "target": "name: \"ServiceQuotaExceededException\""
+                },
+                {
+                    "source": "name: \"ThrottlingException\"",
+                    "target": "name: \"ThrottlingException\""
+                },
+                {
+                    "source": "name: \"ValidationException\"",
+                    "target": "name: \"ValidationException\""
+                },
+                {
+                    "source": "name: \"SsmlMarksNotSupportedForTextTypeException\"",
+                    "target": "name: \"SsmlMarksNotSupportedForTextTypeException\""
+                },
+                {
+                    "source": "name: \"TextLengthExceededException\"",
+                    "target": "name: \"TextLengthExceededException\""
+                },
+                {
+                    "source": "textContent = \"faster +\"",
+                    "target": "textContent = \"faster +\""
+                },
+                {
+                    "source": "text: \"Credential Validation\"",
+                    "target": "text: \"Credential Validation\""
+                },
+                {
+                    "source": "text: \"Test Credentials\"",
+                    "target": "text: \"Test Credentials\""
+                },
+                {
+                    "source": "textContent = `Click 'Test Credentials' to verify your ${opts.providerName} setup`",
+                    "target": "textContent = `Click 'Test Credentials' to verify your ${opts.providerName} setup`"
+                },
+                {
+                    "source": "text: \"View setup guide\"",
+                    "target": "text: \"View setup guide\""
+                },
+                {
+                    "source": "textContent = \"Testing credentials...\"",
+                    "target": "textContent = \"Testing credentials...\""
+                },
+                {
+                    "source": "textContent = \"Testing...\"",
+                    "target": "textContent = \"Testing...\""
+                },
+                {
+                    "source": "textContent = \"Test Credentials\"",
+                    "target": "textContent = \"Test Credentials\""
+                },
+                {
+                    "source": "name: \"Start reading the current document.\"",
+                    "target": "name: \"Start reading the current document.\""
+                },
+                {
+                    "source": "name: \"Pause reading the current document.\"",
+                    "target": "name: \"Pause reading the current document.\""
+                },
+                {
+                    "source": "name: \"Stop reading the current document.\"",
+                    "target": "name: \"Stop reading the current document.\""
+                },
+                {
+                    "source": "name: \"Rewind by few seconds reading the current document.\"",
+                    "target": "name: \"Rewind by few seconds reading the current document.\""
+                },
+                {
+                    "source": "name: \"Fast-Forward by few seconds reading the current document.\"",
+                    "target": "name: \"Fast-Forward by few seconds reading the current document.\""
+                },
+                {
+                    "source": "name: \"Increase the reading speed by 0.1x.\"",
+                    "target": "name: \"Increase the reading speed by 0.1x.\""
+                },
+                {
+                    "source": "name: \"Decrease the reading speed by 0.1x.\"",
+                    "target": "name: \"Decrease the reading speed by 0.1x.\""
+                },
+                {
+                    "source": "name: \"Save the current audio as an MP3 and embed it in the note.\"",
+                    "target": "name: \"Save the current audio as an MP3 and embed it in the note.\""
+                },
+                {
+                    "source": "name: \"Switch to the next speaker.\"",
+                    "target": "name: \"Switch to the next speaker.\""
+                },
+                {
+                    "source": "name: \"Play or Stop reading the current document.\"",
+                    "target": "name: \"Play or Stop reading the current document.\""
+                },
+                {
+                    "source": "name: \"Reading tempo increased by 15% for a faster pace of the current document.\"",
+                    "target": "name: \"Reading tempo increased by 15% for a faster pace of the current document.\""
+                },
+                {
+                    "source": "name: \"Reading tempo reduced by 15% for a slower pace of the current document.\"",
+                    "target": "name: \"Reading tempo reduced by 15% for a slower pace of the current document.\""
+                },
+                {
+                    "source": "text: \"Read this note\"",
+                    "target": "text: \"Read this note\""
+                },
+                {
+                    "source": "name : \"Voice player\"",
+                    "target": "name : \"Voice player\""
+                },
+                {
+                    "source": "text: \"No audio folders\"",
+                    "target": "text: \"No audio folders\""
+                },
+                {
+                    "source": "textContent = `${currentSpeed.toFixed(1)}x`",
+                    "target": "textContent = `${currentSpeed.toFixed(1)}x`"
+                },
+                {
+                    "source": "textContent = \"|\"",
+                    "target": "textContent = \"|\""
+                },
+                {
+                    "source": "name = \"\"",
+                    "target": "name = \"\""
+                },
+                {
+                    "source": "name: \"attention\"",
+                    "target": "name: \"attention\""
+                },
+                {
+                    "source": "name: \"autolink\"",
+                    "target": "name: \"autolink\""
+                },
+                {
+                    "source": "name: \"blockQuote\"",
+                    "target": "name: \"blockQuote\""
+                },
+                {
+                    "source": "name: \"characterEscape\"",
+                    "target": "name: \"characterEscape\""
+                },
+                {
+                    "source": "name: \"characterReference\"",
+                    "target": "name: \"characterReference\""
+                },
+                {
+                    "source": "name: \"codeFenced\"",
+                    "target": "name: \"codeFenced\""
+                },
+                {
+                    "source": "name: \"codeIndented\"",
+                    "target": "name: \"codeIndented\""
+                },
+                {
+                    "source": "name: \"codeText\"",
+                    "target": "name: \"codeText\""
+                },
+                {
+                    "source": "name: \"definition\"",
+                    "target": "name: \"definition\""
+                },
+                {
+                    "source": "name: \"hardBreakEscape\"",
+                    "target": "name: \"hardBreakEscape\""
+                },
+                {
+                    "source": "name: \"headingAtx\"",
+                    "target": "name: \"headingAtx\""
+                },
+                {
+                    "source": "name: \"htmlFlow\"",
+                    "target": "name: \"htmlFlow\""
+                },
+                {
+                    "source": "name: \"htmlText\"",
+                    "target": "name: \"htmlText\""
+                },
+                {
+                    "source": "name: \"labelEnd\"",
+                    "target": "name: \"labelEnd\""
+                },
+                {
+                    "source": "name: \"labelStartImage\"",
+                    "target": "name: \"labelStartImage\""
+                },
+                {
+                    "source": "name: \"labelStartLink\"",
+                    "target": "name: \"labelStartLink\""
+                },
+                {
+                    "source": "name: \"lineEnding\"",
+                    "target": "name: \"lineEnding\""
+                },
+                {
+                    "source": "name: \"thematicBreak\"",
+                    "target": "name: \"thematicBreak\""
+                },
+                {
+                    "source": "name: \"list\"",
+                    "target": "name: \"list\""
+                },
+                {
+                    "source": "name: \"setextUnderline\"",
+                    "target": "name: \"setextUnderline\""
+                },
+                {
+                    "source": "name: \"wwwAutolink\"",
+                    "target": "name: \"wwwAutolink\""
+                },
+                {
+                    "source": "name: \"protocolAutolink\"",
+                    "target": "name: \"protocolAutolink\""
+                },
+                {
+                    "source": "name: \"emailAutolink\"",
+                    "target": "name: \"emailAutolink\""
+                },
+                {
+                    "source": "name: \"gfmFootnoteDefinition\"",
+                    "target": "name: \"gfmFootnoteDefinition\""
+                },
+                {
+                    "source": "name: \"gfmFootnoteCall\"",
+                    "target": "name: \"gfmFootnoteCall\""
+                },
+                {
+                    "source": "name: \"gfmPotentialFootnoteCall\"",
+                    "target": "name: \"gfmPotentialFootnoteCall\""
+                },
+                {
+                    "source": "name: \"strikethrough\"",
+                    "target": "name: \"strikethrough\""
+                },
+                {
+                    "source": "name: \"table\"",
+                    "target": "name: \"table\""
+                },
+                {
+                    "source": "name: \"tasklistCheck\"",
+                    "target": "name: \"tasklistCheck\""
+                },
+                {
+                    "source": "name: \"Open the player.\"",
+                    "target": "name: \"Open the player.\""
+                },
+                {
+                    "source": "name: \"Show what's new.\"",
+                    "target": "name: \"Show what's new.\""
+                }
+            ]
+        }
+    }
+}
