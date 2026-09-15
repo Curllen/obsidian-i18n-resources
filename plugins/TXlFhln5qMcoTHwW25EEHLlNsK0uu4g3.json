@@ -1,0 +1,620 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "sync-engine",
+        "version": "1.0.0",
+        "title": "Sync Engine",
+        "description": "Sync Engine Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "3.1.6",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Use ",
+                    "target": "使用 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " to substantially accelerate syncing.",
+                    "target": " 以显著加速同步。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Files / folders matching these Glob patterns will not be synced. Please remember to add file extensions (E.g. ",
+                    "target": "匹配这些 Glob 模式的文件/文件夹将不会被同步。请记得添加文件扩展名（例如 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": ") if you want to exclude files. Refer to ",
+                    "target": ") 如果您想要排除文件。请参考 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " for configuration guide.",
+                    "target": " 以获取配置指南。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Set the icon to be displayed in the module card, a full list of icons can be found in ",
+                    "target": "设置要在模块卡片中显示的图标，完整的图标列表可在 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Files / folders matching exclusion rules but also matching these glob patterns will still be synced. Refer to ",
+                    "target": "匹配排除规则但同时匹配这些 Glob 模式的文件/文件夹仍将被同步。请参考 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Verify the hash each time the module is loaded, ",
+                    "target": "每次加载模块时验证哈希值， "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Invalid module: the file needs to have ",
+                    "target": "无效模块：文件需要具有 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " or ",
+                    "target": " 或 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " extension.",
+                    "target": " 扩展。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " for more detailed explanation of each setting. Labels on settings:",
+                    "target": " 有关各项设置的更详细说明。设置标签："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Sync Engine detected an installed module named ",
+                    "target": "同步引擎检测到一个已安装的模块，名为 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " in its module directory. This module is neither installed in Sync Engine module management page, nor registered anywhere to be exempt from provenance validation. ",
+                    "target": " 在其模块目录中。此模块既未在同步引擎模块管理页面中安装，也未在任何地方注册以豁免来源验证。 "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "File name: ",
+                    "target": "文件名："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "File path: ",
+                    "target": "文件路径："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Size: ",
+                    "target": "大小："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Created at: ",
+                    "target": "创建时间："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Modified at: ",
+                    "target": "修改时间："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " If you do not know where does it come from, directly deleting it is the best option. If you control the module and it is intentional, you can choose \"Configure\" and enable it.",
+                    "target": " 如果您不知道其来源，直接删除它是最佳选择。如果您控制该模块且是有意为之，您可以选择\"Configure\"并启用它。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "rounded-lg border border-[--background-modifier-border] bg-[--background-secondary] px-2",
+                    "target": "rounded-lg border border-[--background-modifier-border] bg-[--background-secondary] px-2"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "break-words flex items-center gap-2",
+                    "target": "break-words flex items-center gap-2"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "w-100% flex flex-col gap-3",
+                    "target": "w-100% flex flex-col gap-3"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "flex flex-row text-3 text-[--text-muted] whitespace-nowrap",
+                    "target": "flex flex-row text-3 text-[--text-muted] whitespace-nowrap"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "truncate mr-auto",
+                    "target": "truncate mr-auto"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "flex flex-col gap-4 max-h-[75vh] pt-3 pb-3",
+                    "target": "flex flex-col gap-4 max-h-[75vh] pt-3 pb-3"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "max-h-[50vh] overflow-y-auto rounded-lg border border-[--background-modifier-border] bg-[--background-secondary] p-3 hidden",
+                    "target": "max-h-[50vh] overflow-y-auto rounded-lg border border-[--background-modifier-border] bg-[--background-secondary] p-3 hidden"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "flex items-center gap-2 pb-4",
+                    "target": "flex items-center gap-2 pb-4"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "min-w-0 flex-1",
+                    "target": "min-w-0 flex-1"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "min-h-0 overflow-y-auto",
+                    "target": "min-h-0 overflow-y-auto"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "ol",
+                    "target": "ol"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "li",
+                    "target": "li"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "code",
+                    "target": "code"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "strong",
+                    "target": "strong"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "ul",
+                    "target": "ul"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "list-none ps-0!",
+                    "target": "list-none ps-0!"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "whitespace-pre-line hidden my-0",
+                    "target": "whitespace-pre-line hidden my-0"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "style",
+                    "target": "style"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "clickable-icon flex-shrink-0 rounded-md",
+                    "target": "clickable-icon flex-shrink-0 rounded-md"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "input",
+                    "target": "input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createSpan",
+                    "source": "w-[--icon-size] h-[--icon-size] color-[--color-red]",
+                    "target": "w-[--icon-size] h-[--icon-size] color-[--color-red]"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "ml-1 max-w-250px truncate",
+                    "target": "ml-1 max-w-250px truncate"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "text-[--text-muted] whitespace-nowrap",
+                    "target": "text-[--text-muted] whitespace-nowrap"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "font-semibold truncate",
+                    "target": "font-semibold truncate"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "text-[--text-muted] break-words mt-1",
+                    "target": "text-[--text-muted] break-words mt-1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "absolute top-0 bottom-0 left-0 right-0 opacity-0",
+                    "target": "absolute top-0 bottom-0 left-0 right-0 opacity-0"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "flair",
+                    "target": "flair"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Description",
+                    "target": "描述"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Device is offline.",
+                    "target": "设备已离线。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Name",
+                    "target": "名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "dummy",
+                    "target": "虚拟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "asymmetric storage",
+                    "target": "非对称存储"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "You should be cautious about following points before enabling asymmetric storage:",
+                    "target": "在启用非对称存储之前，您应注意以下几点："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Remote storage will no longer mirror local hierarchical structure. All files will be uploaded flatly to the base directory with random string anchors appended.",
+                    "target": "远程存储将不再镜像本地的层级结构。所有文件将扁平上传至基础目录，并附加随机字符串锚点。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "If you need the remote to remain readable by humans, please don't enable this feature.",
+                    "target": "若您需要远程存储保持人类可读，请勿启用此功能。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "After enabling, please ensure all devices have asymmetric storage enabled.",
+                    "target": "启用后，请确保所有设备均已启用非对称存储。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Migration is necessary if this vault was previously uploaded without asymmetric storage.",
+                    "target": "如果此保管库先前是在未启用非对称存储的情况下上传的，则需要进行迁移。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "You should be cautious about following points before disabling asymmetric storage:",
+                    "target": "在禁用非对称存储之前，您应注意以下几点："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "All subsequent uploads will mirror local hierarchical structure.",
+                    "target": "所有后续上传将镜像本地的层级结构。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Please ensure all devices have asymmetric storage disabled.",
+                    "target": "请确保所有设备均已禁用非对称存储。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Migration is necessary if this vault was previously uploaded with asymmetric storage enabled.",
+                    "target": "如果此保管库先前在上传时启用了非对称存储，则必须进行迁移。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "settings documentation",
+                    "target": "设置文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Lucide Icons catalog",
+                    "target": "Lucide 图标目录"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "protecting you from malicious module replacement attacks",
+                    "target": "保护您免受恶意模块替换攻击"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Thanks for choosing Sync Engine! Access ",
+                    "target": "感谢选择 Sync Engine！访问 "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "the documentation",
+                    "target": "文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Please review following information before proceeding:",
+                    "target": "请先查看以下信息，然后再继续："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Please avoid loading modules with unknown sources, as this could be a malicious attack.",
+                    "target": "请避免加载来源不明的模块，因为这可能是恶意攻击。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "file",
+                    "target": "文件"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "appendText(`Use `)",
+                    "target": "appendText(`Use `)"
+                },
+                {
+                    "source": "appendText(` to substantially accelerate syncing.`)",
+                    "target": "appendText(` to substantially accelerate syncing.`)"
+                },
+                {
+                    "source": "appendText(`Files / folders matching these Glob patterns will not be synced. Please remember to add file extensions (E.g. `)",
+                    "target": "appendText(`Files / folders matching these Glob patterns will not be synced. Please remember to add file extensions (E.g. `)"
+                },
+                {
+                    "source": "appendText(`) if you want to exclude files. Refer to `)",
+                    "target": "appendText(`) if you want to exclude files. Refer to `)"
+                },
+                {
+                    "source": "appendText(` for configuration guide.`)",
+                    "target": "appendText(` for configuration guide.`)"
+                },
+                {
+                    "source": "appendText(`Set the icon to be displayed in the module card, a full list of icons can be found in `)",
+                    "target": "appendText(`Set the icon to be displayed in the module card, a full list of icons can be found in `)"
+                },
+                {
+                    "source": "appendText(`Files / folders matching exclusion rules but also matching these glob patterns will still be synced. Refer to `)",
+                    "target": "appendText(`Files / folders matching exclusion rules but also matching these glob patterns will still be synced. Refer to `)"
+                },
+                {
+                    "source": "appendText(`Verify the hash each time the module is loaded, `)",
+                    "target": "appendText(`Verify the hash each time the module is loaded, `)"
+                },
+                {
+                    "source": "appendText(`Invalid module: the file needs to have `)",
+                    "target": "appendText(`Invalid module: the file needs to have `)"
+                },
+                {
+                    "source": "appendText(` or `)",
+                    "target": "appendText(` or `)"
+                },
+                {
+                    "source": "appendText(` extension.`)",
+                    "target": "appendText(` extension.`)"
+                },
+                {
+                    "source": "appendText(` for more detailed explanation of each setting. Labels on settings:`)",
+                    "target": "appendText(` for more detailed explanation of each setting. Labels on settings:`)"
+                },
+                {
+                    "source": "appendText(` ${r.ariaLabel}`)",
+                    "target": "appendText(` ${r.ariaLabel}`)"
+                },
+                {
+                    "source": "appendText(`Sync Engine detected an installed module named `)",
+                    "target": "appendText(`Sync Engine detected an installed module named `)"
+                },
+                {
+                    "source": "appendText(` in its module directory. This module is neither installed in Sync Engine module management page, nor registered anywhere to be exempt from provenance validation. `)",
+                    "target": "appendText(` in its module directory. This module is neither installed in Sync Engine module management page, nor registered anywhere to be exempt from provenance validation. `)"
+                },
+                {
+                    "source": "appendText(`File name: `)",
+                    "target": "appendText(`File name: `)"
+                },
+                {
+                    "source": "appendText(`File path: `)",
+                    "target": "appendText(`File path: `)"
+                },
+                {
+                    "source": "appendText(`Size: `)",
+                    "target": "appendText(`Size: `)"
+                },
+                {
+                    "source": "appendText(`Created at: `)",
+                    "target": "appendText(`Created at: `)"
+                },
+                {
+                    "source": "appendText(`Modified at: `)",
+                    "target": "appendText(`Modified at: `)"
+                },
+                {
+                    "source": "appendText(` If you do not know where does it come from, directly deleting it is the best option. If you control the module and it is intentional, you can choose \"Configure\" and enable it.`)",
+                    "target": "appendText(` If you do not know where does it come from, directly deleting it is the best option. If you control the module and it is intentional, you can choose \"Configure\" and enable it.`)"
+                },
+                {
+                    "source": "Notice(`${l(`failedToLoadModule`,a)}: ${t}`)",
+                    "target": "Notice(`${l(`failedToLoadModule`,a)}: ${t}`)"
+                },
+                {
+                    "source": "Notice(`${s(`failedToDownloadModule`,a)}: ${t}`)",
+                    "target": "Notice(`${s(`failedToDownloadModule`,a)}: ${t}`)"
+                },
+                {
+                    "source": "Notice(`${n(`failedToFetchSource`,r)}: ${a}`)",
+                    "target": "Notice(`${n(`failedToFetchSource`,r)}: ${a}`)"
+                },
+                {
+                    "source": "setText(`${e}/${o} ${this.t(`completed`)",
+                    "target": "setText(`${e}/${o} ${this.t(`completed`)"
+                },
+                {
+                    "source": "setText(`${o}/${e} ${t(`completed`)",
+                    "target": "setText(`${o}/${e} ${t(`completed`)"
+                },
+                {
+                    "source": "text:`asymmetric storage`",
+                    "target": "text:`asymmetric storage`"
+                },
+                {
+                    "source": "text:`You should be cautious about following points before enabling asymmetric storage:`",
+                    "target": "text:`You should be cautious about following points before enabling asymmetric storage:`"
+                },
+                {
+                    "source": "text:`Remote storage will no longer mirror local hierarchical structure. All files will be uploaded flatly to the base directory with random string anchors appended.`",
+                    "target": "text:`Remote storage will no longer mirror local hierarchical structure. All files will be uploaded flatly to the base directory with random string anchors appended.`"
+                },
+                {
+                    "source": "text:`If you need the remote to remain readable by humans, please don't enable this feature.`",
+                    "target": "text:`If you need the remote to remain readable by humans, please don't enable this feature.`"
+                },
+                {
+                    "source": "text:`After enabling, please ensure all devices have asymmetric storage enabled.`",
+                    "target": "text:`After enabling, please ensure all devices have asymmetric storage enabled.`"
+                },
+                {
+                    "source": "text:`Migration is necessary if this vault was previously uploaded without asymmetric storage.`",
+                    "target": "text:`Migration is necessary if this vault was previously uploaded without asymmetric storage.`"
+                },
+                {
+                    "source": "text:`You should be cautious about following points before disabling asymmetric storage:`",
+                    "target": "text:`You should be cautious about following points before disabling asymmetric storage:`"
+                },
+                {
+                    "source": "text:`All subsequent uploads will mirror local hierarchical structure.`",
+                    "target": "text:`All subsequent uploads will mirror local hierarchical structure.`"
+                },
+                {
+                    "source": "text:`Please ensure all devices have asymmetric storage disabled.`",
+                    "target": "text:`Please ensure all devices have asymmetric storage disabled.`"
+                },
+                {
+                    "source": "text:`Migration is necessary if this vault was previously uploaded with asymmetric storage enabled.`",
+                    "target": "text:`Migration is necessary if this vault was previously uploaded with asymmetric storage enabled.`"
+                },
+                {
+                    "source": "text:`settings documentation`",
+                    "target": "text:`settings documentation`"
+                },
+                {
+                    "source": "text:`Lucide Icons catalog`",
+                    "target": "text:`Lucide Icons catalog`"
+                },
+                {
+                    "source": "text:`protecting you from malicious module replacement attacks`",
+                    "target": "text:`protecting you from malicious module replacement attacks`"
+                },
+                {
+                    "source": "text:`Thanks for choosing Sync Engine! Access `",
+                    "target": "text:`Thanks for choosing Sync Engine! Access `"
+                },
+                {
+                    "source": "text:`the documentation`",
+                    "target": "text:`the documentation`"
+                },
+                {
+                    "source": "settings:`);let i=n.createEl(`",
+                    "target": "settings:`);let i=n.createEl(`"
+                },
+                {
+                    "source": "text:`Please review following information before proceeding:`",
+                    "target": "text:`Please review following information before proceeding:`"
+                },
+                {
+                    "source": "name: `),c.createEl(`",
+                    "target": "name: `),c.createEl(`"
+                },
+                {
+                    "source": "text:`Please avoid loading modules with unknown sources, as this could be a malicious attack.`",
+                    "target": "text:`Please avoid loading modules with unknown sources, as this could be a malicious attack.`"
+                }
+            ]
+        }
+    }
+}
