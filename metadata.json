@@ -76,5 +76,18 @@
         "hash": "5529bbb45529bbb45529bbb45529bbb4",
         "created_at": "2026-06-25T06:57:50.741Z",
         "updated_at": "2026-06-25T06:57:50.741Z"
+    },
+    {
+        "id": "TXlFhln5qMcoTHwW25EEHLlNsK0uu4g3",
+        "plugin": "sync-engine",
+        "language": "zh-cn",
+        "version": "3.1.6",
+        "supported_versions": "3.1.6",
+        "title": "Sync Engine",
+        "description": "Sync Engine Localization & Tweaks",
+        "hash": "134111cf134111cf134111cf134111cf",
+        "created_at": "2026-09-15T01:59:25.186Z",
+        "updated_at": "2026-09-15T01:59:25.186Z",
+        "type": "plugin"
     }
 ]
